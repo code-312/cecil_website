@@ -1,7 +1,6 @@
 import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
-import Image from "../components/image"
 import logo from '../images/box_state_color@4x.png'
 const Header = ({ siteTitle }) => (
   <header
@@ -22,7 +21,7 @@ const Header = ({ siteTitle }) => (
         display: 'flex',
         alignItems: 'center',
       }}>
-        <img src={logo} style={{
+        <img src={logo} alt='Cannabis Equity Coalition IL Logo' style={{
           width: '200px', 
           height: '110px',
           paddingTop: '20px'
@@ -38,7 +37,6 @@ const Header = ({ siteTitle }) => (
               textDecoration: `none`,
               paddingLeft: '14px',
               paddingRight: '16px',
-              whiteSpace: 'nowrap',
             }}
           >
             About Us
@@ -49,7 +47,6 @@ const Header = ({ siteTitle }) => (
             style={{
               color: `white`,
               textDecoration: `none`,
-              whiteSpace: 'nowrap',
             }}
           >
             Contact
