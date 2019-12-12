@@ -1,0 +1,67 @@
+@import "~bulma/sass/utilities/initial-variables"
+
+$logo-green: #10AC84
+$navbar-item-hover-background-color: #DCDCDC
+$navbar-item-img-max-height: 5rem
+
+.full-width-image-container
+  width: 100vw
+  height: 400px
+  position: relative
+  left: 50%
+  right: 50%
+  margin: 2em -50vw
+  background-size: cover
+  background-position: bottom
+  display: flex
+  justify-content: center
+  align-items: center
+
+.full-width-image
+    width: 100vw
+    height: 400px
+    background-size: cover
+    background-position: bottom
+    display: flex
+    justify-content: center
+    align-items: center
+
+.navbar .navbar-menu
+  box-shadow: none !important
+  align-items: right
+
+.navbar .container
+    color: $logo-green
+
+.navbar.start .navbar-item
+  align-items: right
+
+.navbar-start .navbar-item:hover
+  color: $logo-green
+  cursor: pointer
+
+.navbar-item .icon
+  color: $logo-green
+
+.a .navbar-item:hover
+  color: $logo-green
+
+.navbar-brand .navbar-item.logo
+  padding: 0 1rem
+
+.content .taglist
+  list-style: none
+  margin-bottom: 0
+  margin-left: 0
+  margin-right: 1.5rem
+  margin-top: 1.5rem
+  display: flex
+  flex-wrap: wrap
+  justify-content: left
+  align-items: center
+  li
+    padding: 0 2rem 1rem 0
+    margin-bottom: 1.5rem
+    margin-top: 0
+
+@import "~bulma"
