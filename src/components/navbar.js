@@ -77,7 +77,9 @@ const Navbar = class extends React.Component {
                 activeStyle={{ color: '#076b52'}}
                 style={{
                     color: `white`,
-                    textDecoration: `none`,
+                    fontFamily: 'sans-serif',
+                    fontSize: '1.5em',
+                    WebkitTextSizeAdjust: '100%',
                 }}>
                   About Us
                 </Link>
@@ -85,7 +87,9 @@ const Navbar = class extends React.Component {
                 activeStyle={{ color: '#076b52'}}
                 style={{
                     color: `white`,
-                    textDecoration: `none`,
+                    fontFamily: 'sans-serif',
+                    fontSize: '1.5em',
+                    WebkitTextSizeAdjust: '100%',
                 }}>
                   Contact
                 </Link>
