@@ -93,6 +93,16 @@ const Navbar = class extends React.Component {
                 }}>
                   Contact
                 </Link>
+                <Link className="navbar-item" to="/news"
+                activeStyle={{ color: '#076b52'}}
+                style={{
+                    color: `white`,
+                    fontFamily: 'sans-serif',
+                    fontSize: '1.5em',
+                    WebkitTextSizeAdjust: '100%',
+                }}>
+                  News
+                </Link>
               </div>
             </div>
           </div>
