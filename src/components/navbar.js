@@ -1,6 +1,6 @@
 import { Link } from "gatsby"
 import React from "react"
-import logo from '../images/box_state_color@4x.png'
+import logo from '../images/logo_draft_final.svg'
 
 const Navbar = class extends React.Component {
     constructor(props) {
@@ -83,6 +83,26 @@ const Navbar = class extends React.Component {
                 }}>
                   About Us
                 </Link>
+                <Link className="navbar-item" to="/cba"
+                activeStyle={{ color: '#076b52'}}
+                style={{
+                    color: `white`,
+                    fontFamily: 'sans-serif',
+                    fontSize: '1.5em',
+                    WebkitTextSizeAdjust: '100%',
+                }}>
+                  Community Benefits Agreement
+                </Link>
+                <Link className="navbar-item" to="/kyr"
+                activeStyle={{ color: '#076b52'}}
+                style={{
+                    color: `white`,
+                    fontFamily: 'sans-serif',
+                    fontSize: '1.5em',
+                    WebkitTextSizeAdjust: '100%',
+                }}>
+                  Legal Education
+                </Link>
                 <Link className="navbar-item" to="/contact"
                 activeStyle={{ color: '#076b52'}}
                 style={{
@@ -92,16 +112,6 @@ const Navbar = class extends React.Component {
                     WebkitTextSizeAdjust: '100%',
                 }}>
                   Contact
-                </Link>
-                <Link className="navbar-item" to="/news"
-                activeStyle={{ color: '#076b52'}}
-                style={{
-                    color: `white`,
-                    fontFamily: 'sans-serif',
-                    fontSize: '1.5em',
-                    WebkitTextSizeAdjust: '100%',
-                }}>
-                  News
                 </Link>
               </div>
             </div>
