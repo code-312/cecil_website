@@ -42,7 +42,7 @@ const Layout = ({ children }) => {
             paddingTop: '20px',
           }}
         >
-          © {new Date().getFullYear()}, Cannabis Equity Coalition Illinois
+          © {new Date().getFullYear()}, Cannabis Equity Illinois Coalition
         </footer>
       </div>
     </>

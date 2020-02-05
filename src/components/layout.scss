@@ -6,6 +6,14 @@ html {
   -webkit-text-size-adjust: 100%;
 }
 
+ul.a {
+  list-style-type: circle;
+}
+
+ul.b {
+  list-style-type: square;
+}
+
 a:link {
   color: #10AC84;
 }
