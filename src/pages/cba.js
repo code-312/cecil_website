@@ -54,7 +54,7 @@ const CBA = () => (
           </li>
           <li>
             National Expungement Week: Sponsoring, organizing or participating in National Expungement Week
-          </li>]
+          </li>
           <li>
             Legal Education:
           </li>
@@ -98,6 +98,31 @@ const CBA = () => (
             <li>
               Number of Impacted Persons employed
             </li>
+            </ul>
+          </li>
+          <li>
+            Community Impact
+            <ul class="b">
+              <li>
+                Amounts given
+              </li>
+              <li>
+                Recipients
+              </li>
+            </ul>
+          </li>
+          <li>
+            Supply Chain Diversity
+            <ul class="b">
+              <li>
+                Number of diverse contracts
+              </li>
+              <li>
+                Value of contracts
+              </li>
+              <li>
+                Vendor and supplier names
+              </li>
             </ul>
           </li>
         </ul>
