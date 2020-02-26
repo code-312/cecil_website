@@ -9,6 +9,7 @@ import React from "react"
 import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
 import Navbar from "./navbar"
+import Footer from "./footer"
 
 import "./layout.sass"
 import "./layout.scss"
@@ -37,14 +38,8 @@ const Layout = ({ children }) => {
         }}
       >
         <main>{children}</main>
-        <footer
-          style={{
-            paddingTop: '20px',
-          }}
-        >
-          © {new Date().getFullYear()}, Cannabis Equity Illinois Coalition
-        </footer>
       </div>
+      <Footer/>
     </>
   )
 }
