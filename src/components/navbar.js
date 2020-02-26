@@ -37,9 +37,6 @@ const Navbar = class extends React.Component {
           className="navbar is-transparent"
           role="navigation"
           aria-label="main-navigation"
-          style={{
-              color: "#10AC84"
-          }}
         >
           <div className="container" style={{
               backgroundColor: "#10AC84",
@@ -83,7 +80,7 @@ const Navbar = class extends React.Component {
                 }}>
                   About Us
                 </Link>
-                <Link className="navbar-item" to="/cba"
+                <Link className="navbar-item" to="/community-benefits-agreement"
                 activeStyle={{ color: '#076b52'}}
                 style={{
                     color: `white`,
@@ -93,7 +90,7 @@ const Navbar = class extends React.Component {
                 }}>
                   Community Benefits Agreement
                 </Link>
-                <Link className="navbar-item" to="/kyr"
+                <Link className="navbar-item" to="/know-your-rights"
                 activeStyle={{ color: '#076b52'}}
                 style={{
                     color: `white`,
