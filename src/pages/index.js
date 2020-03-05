@@ -15,6 +15,7 @@ const IndexPage = () => (
     <SEO title="About Us" />
       <h1>Who are we?</h1>
       <p>We are a coalition made up of community members and non-profit organizations fighting to make sure the legalization of cannabis Illinois is done to repair and reinvest in the communities most impacted by the war on drugs, and to ensure the cannabis industry prioritizes people over profits!</p>
+      <p>On March 6, 2020, Friday at 8:30am at Chicago City Hall on the 2nd Floor, we are holding a press conference for the coalition and focusing on Zoning Board of Appeals for upcoming dispensary sites in Chicago. Please join us there and wear green!</p>
       <p>Read about our current campaign for Community Benefits Agreement <a style={{color:"#10AC84"}} href="https://chicago.suntimes.com/cannabis/2020/2/12/21135244/chicago-dispensaries-marijuana-cannabis-equity" target="_blank" rel="noreferrer noopener"> in the Chicago Sun-Times</a></p>
       <p>We have weekly meetings during the evenings in neighborhoods disproportionately affected by the War on Drugs. We do this to ensure community voice is heard!</p>
       <p>We meet weekly at 6PM on Thursdays.</p>
